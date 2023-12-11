@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_solution items", "_solution items", "{E31AC35D-1127-4620-9CD1-93655E419A98}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_github workflows", "_github workflows", "{E22C1B43-273D-4CE0-B7F1-B60B84C2413D}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{475ADFD9-849C-4F8B-BC46-2B018BEC0AD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AFACBB02-A1B0-4E1A-B65A-2F8121516DE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sandbox", "sandbox", "{295A8369-F66B-4390-B4D2-D181C892A523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVK.Extensions.Logging", "src\LVK.Extensions.Logging\LVK.Extensions.Logging.csproj", "{C19B455E-C2D5-4EA1-B883-A4A47DA8A610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Console", "sandbox\Sandbox.Console\Sandbox.Console.csproj", "{8090801E-07E2-404A-A646-CB37EAFD7698}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C19B455E-C2D5-4EA1-B883-A4A47DA8A610} = {475ADFD9-849C-4F8B-BC46-2B018BEC0AD0}
+		{8090801E-07E2-404A-A646-CB37EAFD7698} = {295A8369-F66B-4390-B4D2-D181C892A523}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19B455E-C2D5-4EA1-B883-A4A47DA8A610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19B455E-C2D5-4EA1-B883-A4A47DA8A610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19B455E-C2D5-4EA1-B883-A4A47DA8A610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19B455E-C2D5-4EA1-B883-A4A47DA8A610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8090801E-07E2-404A-A646-CB37EAFD7698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8090801E-07E2-404A-A646-CB37EAFD7698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8090801E-07E2-404A-A646-CB37EAFD7698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8090801E-07E2-404A-A646-CB37EAFD7698}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

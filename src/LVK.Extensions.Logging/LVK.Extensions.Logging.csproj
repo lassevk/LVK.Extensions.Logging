@@ -8,7 +8,7 @@
         <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">True</GeneratePackageOnBuild>
         <Title>LVK.Extensions.Logging</Title>
         <Authors>Lasse Vågsæther Karlsen</Authors>
-        <Copyright>Lasse Vågsæther Karlsen, All rights reserved</Copyright>
+        <Copyright>Lasse Vågsæther Karlsen 2023, All rights reserved</Copyright>
         <PackageProjectUrl>https://github.com/lassevk/LVK.Extensions.Logging</PackageProjectUrl>
         <Description>Extension methods for Microsoft.Extensions.Logging.ILogger</Description>
         <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -56,5 +56,5 @@
             <Link>key.snk</Link>
         </None>
     </ItemGroup>
-    
+
 </Project>

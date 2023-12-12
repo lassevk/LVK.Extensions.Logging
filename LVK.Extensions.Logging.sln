@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVK.Extensions.Logging", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Console", "sandbox\Sandbox.Console\Sandbox.Console.csproj", "{8090801E-07E2-404A-A646-CB37EAFD7698}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LVK.Extensions.Logging.Tests", "src\LVK.Extensions.Logging.Tests\LVK.Extensions.Logging.Tests.csproj", "{58855710-32CE-4797-8984-BFC075BB8E37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C19B455E-C2D5-4EA1-B883-A4A47DA8A610} = {475ADFD9-849C-4F8B-BC46-2B018BEC0AD0}
 		{8090801E-07E2-404A-A646-CB37EAFD7698} = {295A8369-F66B-4390-B4D2-D181C892A523}
+		{58855710-32CE-4797-8984-BFC075BB8E37} = {AFACBB02-A1B0-4E1A-B65A-2F8121516DE3}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C19B455E-C2D5-4EA1-B883-A4A47DA8A610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,5 +43,9 @@ Global
 		{8090801E-07E2-404A-A646-CB37EAFD7698}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8090801E-07E2-404A-A646-CB37EAFD7698}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8090801E-07E2-404A-A646-CB37EAFD7698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58855710-32CE-4797-8984-BFC075BB8E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58855710-32CE-4797-8984-BFC075BB8E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58855710-32CE-4797-8984-BFC075BB8E37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58855710-32CE-4797-8984-BFC075BB8E37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
